@@ -4,7 +4,7 @@ A lightweight container runtime written in C, designed to run entirely in the Li
 
 ## Features
 
-### ✅ Working Features
+### Working Features
 - **Process Isolation**: Uses Linux namespaces (PID, UTS, Mount, IPC, Network)
 - **Resource Limits**: CPU and memory control with cgroups v2
 - **Container Lifecycle**: Create and run containers with process isolation
@@ -12,12 +12,12 @@ A lightweight container runtime written in C, designed to run entirely in the Li
 - **Logging System**: Structured logging with different levels
 - **Security**: Root privilege validation and input sanitization
 
-### 🚧 In Development
+### In Development
 - **Filesystem Isolation**: Basic structure implemented, chroot integration pending
 - **Container Management**: Stop command with signal handling
 - **Network Isolation**: Namespace creation working, configuration pending
 
-### 📋 Planned Features
+### Planned Features
 - **Container Registry**: Persistent container tracking and listing
 - **Advanced Networking**: veth pairs, bridge configuration, IP assignment
 - **Image Management**: Layered filesystem support
@@ -89,7 +89,7 @@ mini docker/
 
 ### Implementation Status
 
-#### ✅ Completed Features
+#### Completed Features
 - [x] Complete CLI interface (run, stop, ps, help commands)
 - [x] Project structure and build system
 - [x] Namespace creation (PID, UTS, Mount, IPC, Network)
@@ -99,12 +99,12 @@ mini docker/
 - [x] Logging and utility functions
 - [x] Root privilege validation
 
-#### 🚧 Partially Implemented
+#### Partially Implemented
 - [~] Container stopping (basic signal handling implemented)
 - [~] Filesystem isolation (structure exists, chroot/pivot_root not integrated)
 - [~] Network namespace setup (basic structure, no veth/bridge config)
 
-#### ❌ Not Yet Implemented
+#### Not Yet Implemented
 - [ ] Container registry/listing (shows placeholder)
 - [ ] Complete filesystem isolation (proc/sys mounting)
 - [ ] Network configuration (veth pairs, bridges, IP assignment)
