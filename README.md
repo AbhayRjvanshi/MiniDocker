@@ -145,12 +145,12 @@ mini docker/
 - [x] Logging and utility functions
 - [x] Root privilege validation
 
-#### 🚧 Partially Implemented
+####  Partially Implemented
 - [~] Container stopping (basic signal handling implemented)
 - [~] Filesystem isolation (structure exists, chroot/pivot_root not integrated)
 - [~] Network namespace setup (basic structure, no veth/bridge config)
 
-#### ❌ Not Yet Implemented
+####  Not Yet Implemented
 - [ ] Container registry/listing (shows placeholder)
 - [ ] Complete filesystem isolation (proc/sys mounting)
 - [ ] Network configuration (veth pairs, bridges, IP assignment)
